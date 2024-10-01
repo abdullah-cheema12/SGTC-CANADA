@@ -40,9 +40,34 @@ function animateCounter(counterId, targetNumber, increment, intervalTime) {
     }, intervalTime);
 }
 
-window.onload = function() {
-    animateCounter('clients-counter', 200, 10, 50);
-    animateCounter('products-counter', 5000, 200, 50);
-    animateCounter('services-counter', 10, 1, 50);
-    animateCounter('countries-counter', 3, 1, 50);
-};
+function startCounters(entries, observer) {
+    entries.forEach(entry => {
+        const counterIds = ['clients-counter', 'products-counter', 'services-counter', 'countries-counter'];
+
+        if (entry.isIntersecting) {
+            // Start the counters when the element is visible
+            animateCounter('clients-counter', 200, 10, 50);
+            animateCounter('products-counter', 5000, 200, 50);
+            animateCounter('services-counter', 10, 1, 50);
+            animateCounter('countries-counter', 3, 1, 50);
+        } else {
+            // Reset the counters when the element leaves the viewport
+            counterIds.forEach(counterId => {
+                const counter = document.getElementById(counterId);
+                counter.textContent = "0+";
+            });
+        }
+    });
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    const observerOptions = {
+        root: null, // Null means it will observe based on the viewport
+        threshold: 0.2 // 20% of the element must be visible to trigger
+    };
+
+    const observer = new IntersectionObserver(startCounters, observerOptions);
+    const targetDiv = document.querySelector('.counter-div'); // Target the div you want to observe
+
+    observer.observe(targetDiv); // Start observing the target div
+});

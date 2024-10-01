@@ -234,3 +234,11 @@ textarea {
         padding-top: 1rem !important;
     }
 }
+.carousel-control-prev-icon{
+    width: 20px !important;
+    height: 20px !important;
+}
+.carousel-control-next-icon{
+    width: 20px !important;
+    height: 20px !important;
+}
