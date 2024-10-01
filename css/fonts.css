@@ -1,0 +1,80 @@
+@font-face{
+    font-family: poopins;
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+@font-face{
+    font-family: poopins-lite;
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face{
+    font-family: south-q;
+    src: url(../fonts/SouthQDemoRegular.ttf);
+}
+@font-face{
+    font-family: roboto-black;
+    src: url(../fonts/RobotoCondensed-Black.ttf);
+}
+@font-face{
+    font-family: roboto-black-italic;
+    src: url(../fonts/RobotoCondensed-BlackItalic.ttf);
+}
+@font-face{
+    font-family: roboto-bold;
+    src: url(../fonts/RobotoCondensed-Bold.ttf);
+}
+@font-face{
+    font-family: roboto-bold-italic;
+    src: url(../fonts/RobotoCondensed-BoldItalic.ttf);
+}
+@font-face{
+    font-family: roboto-extra-bold;
+    src: url(../fonts/RobotoCondensed-ExtraBold.ttf);
+}
+@font-face{
+    font-family: roboto-extra-bold-italic;
+    src: url(../fonts/RobotoCondensed-ExtraBoldItalic.ttf);
+}
+@font-face{
+    font-family: roboto-extra-light;
+    src: url(../fonts/RobotoCondensed-ExtraLight.ttf);
+}
+@font-face{
+    font-family: roboto-extra-light-italic;
+    src: url(../fonts/RobotoCondensed-ExtraLightItalic.ttf);
+}
+@font-face{
+    font-family: roboto-italic;
+    src: url(../fonts/RobotoCondensed-Italic.ttf);
+}
+@font-face{
+    font-family: roboto-light-italic;
+    src: url(../fonts/RobotoCondensed-Light.ttf);
+}
+@font-face{
+    font-family: roboto-medium;
+    src: url(../fonts/RobotoCondensed-Medium.ttf);
+}
+@font-face{
+    font-family: roboto-medium-italic;
+    src: url(../fonts/RobotoCondensed-MediumItalic.ttf);
+}
+@font-face{
+    font-family: roboto-regular;
+    src: url(../fonts/RobotoCondensed-Regular.ttf);
+}
+@font-face{
+    font-family: roboto-semibold;
+    src: url(../fonts/RobotoCondensed-SemiBold.ttf);
+}
+@font-face{
+    font-family: roboto-semibold-italic;
+    src: url(../fonts/RobotoCondensed-SemiBoldItalic.ttf);
+}
+@font-face{
+    font-family: roboto-thin;
+    src: url(../fonts/RobotoCondensed-Thin.ttf);
+}
+@font-face{
+    font-family: roboto-thin-italic;
+    src: url(../fonts/RobotoCondensed-ThinItalic.ttf);
+}
