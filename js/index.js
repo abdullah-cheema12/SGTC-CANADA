@@ -46,10 +46,10 @@ function startCounters(entries, observer) {
 
         if (entry.isIntersecting) {
             // Start the counters when the element is visible
-            animateCounter('clients-counter', 200, 10, 50);
-            animateCounter('products-counter', 5000, 200, 50);
-            animateCounter('services-counter', 10, 1, 50);
-            animateCounter('countries-counter', 3, 1, 50);
+            animateCounter('clients-counter', 150, 10, 50);
+            animateCounter('products-counter', 4000, 200, 50);
+            animateCounter('services-counter', 15, 1, 50);
+            animateCounter('countries-counter',10, 1, 50);
         } else {
             // Reset the counters when the element leaves the viewport
             counterIds.forEach(counterId => {
